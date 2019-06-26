@@ -1,0 +1,65 @@
+.header{
+    background:white;
+
+    &__shapes{
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    &__shape--1{
+        position: relative;
+        right: 300px;
+    }
+
+
+    &__shape--2{
+        position: relative;
+        left: 750px;
+        bottom: 300px;
+    }
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    &__nav{
+        display: flex;
+        align-items: center;
+
+        & li {
+            margin-left: 80px;
+        }
+
+        & a {
+            color: black;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+
+    &__login-started{
+        display: flex;
+        align-items: center;
+
+        & li{
+            margin-left: 15px;
+            font-size: 14px;
+        }
+    }
+
+    &__login{
+        color: black;
+        font-weight: 600;
+    }
+
+
+
+}

@@ -19,28 +19,35 @@
     <header class="header">
 
       <div class="header__shapes">
-        <img src="assets/img/hero-shape-1.png" alt="">
-        <img src="assets/img/hero-shape-2.png" alt="">
+        <img src="assets/img/header__shape--1.png" class="header__shape--1" alt="">
+        <img src="assets/img/header__shape--2.png" class="header__shape--2" alt="">
       </div>
 
       <div class="container">
 
-        <div class="">
-          
-          <img src="assets/img/logo.png" class="header__logo" alt="ShowTracker Logo">
+        <!-- mobile menu icon -->
+        <div class="header__mobile-menu-container">
+          <div class="header__menu-icon">
+            <div class="header__menu-icon--middle"></div>
+          </div>
+        </div>
 
-          <nav class="">
-            <ul>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Community</a></li>
-              <li><a href="#">Get Started</a></li>
+        <div class="header__wrapper">
+          
+          <a href="#hero-section" id="hero-link"><img src="assets/img/logo.png" class="header__logo" alt="ShowTracker Logo"></a>
+
+          <nav>
+            <ul class="header__nav">
+              <li><a href="#features" class="scroll" id="features-link">Features</a></li>
+              <li><a href="#community" class="scroll" id="community-link">Community</a></li>
+              <li><a href="#started" class="scroll" id="started-link">Get Started</a></li>
             </ul>
           </nav>
 
-          <div class="">
-            <ul>
-              <li><a href="#">Log In</a></li>
-              <li><a href="#">Get Started</a></li>
+          <div>
+            <ul class="header__login-started">
+              <li><a href="#" class="header__login">Log In</a></li>
+              <li><a href="#" class="btn btn--header">Get Started</a></li>
             </ul>
           </div>
 
