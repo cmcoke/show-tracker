@@ -4,4 +4,12 @@
     text-decoration: none;
     padding: 10px 22px;
     display: inline-block;
+
+    &--hero{
+        border: none;
+        padding-top:8px;
+        padding-bottom: 8px;
+        font-family: $nun;
+        cursor: pointer;
+    }
 }
