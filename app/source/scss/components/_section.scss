@@ -1,0 +1,26 @@
+.section{
+    font-size: 12px;
+    color: #BDBDBD;
+    letter-spacing: 1px;
+
+    &--hero{
+        text-transform: uppercase;
+    }
+
+    &--features{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    &--community{
+        font-size: 15px;
+        line-height: 28px;
+        margin-bottom: 0px;
+        width: 520px;
+    }
+
+    &--started{
+        font-size: 15px;
+    }
+}

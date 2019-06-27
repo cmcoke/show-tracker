@@ -9,9 +9,6 @@
   <meta name="description" content="">
   <title>ShowTrackr | Track Your Shows</title>
   <link rel="stylesheet" href="assets/css/main.min.css">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
-  <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
-
   <!-- <script src="./assets/scripts/vendors.js"></script> -->
 </head>
 
@@ -62,16 +59,16 @@
     </header>
 
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero" id="hero-section">
      
       <div class="container">
 
         <div class="hero__wrapper">
 
           <div class="hero__text-content">
-            <h1 class="hero__heading">Track your shows automatically</h1>
+            <h1 class="heading heading--hero">Track your shows automatically</h1>
   
-            <p class="hero__description">With ShowTrackr you can track your favorite TV shows automatically, so you never loose track of your TV shows ever again.🍿</p>
+            <p class="text-content text-content--hero">With ShowTrackr you can track your favorite TV shows automatically, so you never loose track of your TV shows ever again.🍿</p>
   
             <form action="#">
                 <input type="text" class="input input--hero" placeholder="your@email.com">
@@ -80,14 +77,14 @@
   
             <div class="hero__compatiable-content">
               
-              <p>Compatiable with</p>
+              <p class="section  section--hero">Compatiable with</p>
 
               <div class="hero__compatiable-list">
-                <img src="assets/img/netflix.png" alt="netflix logo">
-                <img src="assets/img/apple.png" alt="apple logo">
-                <img src="assets/img/android.png" alt="android logo">
-                <img src="assets/img/windows.png" alt="windows logo">
-                <img src="assets/img/synology.png" alt="synology logo">
+                <img src="assets/img/net.png" alt="netflix logo">
+                <img src="assets/img/app.png" alt="apple logo">
+                <img src="assets/img/and.png" alt="android logo">
+                <img src="assets/img/win.png" alt="windows logo">
+                <img src="assets/img/nv.png" alt="nvidia logo">
               </div>
             </div>
           </div>
@@ -101,16 +98,16 @@
 
 
     <!-- FEATURES -->
-    <section class="features">
+    <section class="features" id="features">
 
      <div class="container">
 
       <div class="features__text-content">
-          <h3>Features</h3>
+          <p class="section section--features">Features</p>
 
-          <h1>Built and customized for your habit</h1>
+          <h1 class="heading heading--features">Built and customized for your habit</h1>
 
-          <p>ShowTrackr's buil-in machine leatning and context-aware features guarantee that all the notification and recommendations are always delivered to you in the perfect moment.</p>
+          <p class="text-content text-content--features">ShowTrackr's buil-in machine leatning and context-aware features guarantee that all the notification and recommendations are always delivered to you in the perfect moment.</p>
       </div>
 
       <div class="features__list">
@@ -188,9 +185,9 @@
           <div class="platform__wrapper">
               <div class="platform__text-content">
 
-                  <h2>Easy-to-use interface on every platform</h2>
+                  <h2 class="heading heading--platform">Easy-to-use interface on every platform</h2>
           
-                  <p>Since most of our features work in a completely automatedway, you will mainly use our apps to discover new TV shows recommended for you and discuss the most interesting episodes with like-minded people.</p>
+                  <p class="text-content text-content--platform">Since most of our features work in a completely automatedway, you will mainly use our apps to discover new TV shows recommended for you and discuss the most interesting episodes with like-minded people.</p>
     
                   <div class="platform__lists">
                     <img src="assets/img/dashboard.png" alt="">
@@ -216,16 +213,14 @@
               </div>
           </div>
 
-          
-
-          
+            
       </div>
 
     </section>
 
 
     <!-- COMMUNITY -->
-    <section class="community">
+    <section class="community" id="community">
 
       <div class="container">
 
@@ -233,13 +228,13 @@
 
             <div class="community__text-content">
               
-              <h3>Community</h3>
+              <p class="section section--community">Community</p>
 
-              <h1>We belive in the power of community</h1>
+              <h1 class="heading heading--community">We believe in the power of community</h1>
 
-              <p>Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</p>
+              <p class="text-content text-content--community">Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</p>
 
-              <a href="#" class="btn">Read more testimonials</a>
+              <a href="#" class="btn btn--community">Read More Testimonials</a>
             </div>
 
             <div class="community__images">
@@ -256,16 +251,22 @@
 
 
     <!-- GET STARTED -->
-    <section class="started">
+    <section class="started" id="started">
 
       <div class="container">
 
         <div class="started__wrapper">
-            <h3>Get Started</h3>
-            <h1>Start tracking your TV shows for free</h1>
-            <p>In order to start tracking your TV shows, all you have to do is enter your email address. Everything else will be taken care of by us. All you have to do is sit back, relax and enjoy your TV shows.</p>
-            <input type="text">
-            <a href="#">Start tracking</a>
+            <p class="section section--started">Get Started</p>
+
+            <h1 class="heading heading--started">Start tracking your TV shows for free</h1>
+
+            <p class="text-content text-content--started">In order to start tracking your TV shows, all you have to do is enter your email address. Everything else will be taken care of by us. All you have to do is sit back, relax and enjoy your TV shows.</p>
+
+          <form action="#">
+              <input type="text" class="input input--started" placeholder="your@email.com">
+              <button class="btn btn--hero">Start Tracking</button>
+          </form>
+
         </div>
 
       </div>
@@ -278,7 +279,7 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <p>Please note that the design of this landing page was created by  <a href="https://dribbble.com/shots/4420134-Landing-Page-Template">Daniel Korpai</a>  but code by me.</p>
+      <p>Please note that the design of this landing page was created by <a href="https://dribbble.com/shots/4420134-Landing-Page-Template">Daniel Korpai</a></p>
     </div>
   </footer>
 </body>

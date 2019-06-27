@@ -1,0 +1,36 @@
+.heading{
+    font-weight: 700;
+
+    &--hero{
+        font-size: 70px;
+        line-height: 75px;
+        margin-bottom: 0px;
+    }
+
+    &--features{
+        font-size: 60px;
+        line-height: 65px;
+        width: 700px;
+        margin: 10px auto 10px auto;
+    }
+
+    &--platform{
+        width: 600px;
+        font-size: 50px;
+    }
+
+    &--community{
+        font-size: 45px;
+        line-height: 49px;
+        margin-top: 11px;
+        margin-bottom: -1px;
+        width: 500px;
+    }
+
+    &--started{
+        font-size: 60px;
+        line-height: 63px;
+        width: 606px;
+         margin: 0px auto 10px auto;
+    }
+}

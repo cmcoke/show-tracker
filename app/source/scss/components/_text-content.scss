@@ -1,0 +1,39 @@
+.text-content{
+    font-weight: 300;
+
+    &--hero{
+        font-size: 20px;
+        line-height: 32px;
+        width:  570px;
+    }
+
+    &--features{
+        font-size: 18px;
+        line-height: 28px;
+        width: 610px;
+        margin: 20px auto 60px auto;
+    }
+
+    &--platform{
+        font-size: 18px;
+        line-height: 32px;
+        width: 520px;
+        margin-top: -10px;
+    }
+
+    &--community{
+        color: #BDBDBD;
+        font-size: 18px;
+        line-height: 32px;
+         margin-top: 25px;
+         margin-bottom: 30px;
+         width: 500px;
+    }
+
+    &--started{
+        font-size: 18px;
+        line-height: 32px;
+        width: 600px;
+        margin: 20px auto 30px auto; 
+    }
+}
