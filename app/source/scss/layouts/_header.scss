@@ -1,6 +1,13 @@
 .header{
     background: white;
     border-bottom: 1px solid #EBEBEB;
+
+    @media screen and (min-width: 768px){
+        position: fixed;
+        top:0;
+        width: 100%;
+        z-index: 1;
+      }
     
     
     &__shapes{

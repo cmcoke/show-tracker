@@ -1,6 +1,10 @@
 .hero{
     z-index: 2;
 
+    @media (min-width:768px){
+        padding-top: 91px;
+    }
+
     &__wrapper{
         
         @media (min-width:768px){
