@@ -1,8 +1,21 @@
 .footer{
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 18px;
 
     & a {
         color: $purple;
     }
+
+    &__social-links{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-right: 25px;
+    }
+
+    &__social-links li{
+        padding-left: 18px;
+    }
+
 }

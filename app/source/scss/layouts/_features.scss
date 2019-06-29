@@ -1,12 +1,30 @@
 .features{
-    padding: 50px 0px 30px 0px;
+    
+    @media (min-width: 768px){
+        padding: 50px 0px 30px 0px;
+    }
 
     &__text-content{
         text-align: center;
+        margin-top: 30px;
+
+        @media (min-width: 504px){
+            margin-top: -22px;
+        }
+
+
+        @media (min-width: 768px){
+            margin-top: 0px;
+        }
     }
 
     &__list{
         display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px){
+            flex-direction: row;
+        }
     }
 
 
@@ -14,7 +32,16 @@
         text-align: center;
         width: 300px;
         line-height: 24px;
-        margin: 0 auto;
+        margin: 30px auto;
+
+        @media (min-width: 504px){
+            margin: 23px auto;
+        }
+
+
+        @media (min-width: 768px){
+            margin: 0px auto;
+        }
 
         & img{
             margin-bottom: 0px;

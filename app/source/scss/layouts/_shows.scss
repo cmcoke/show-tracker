@@ -1,15 +1,25 @@
 .shows{
-    padding: 3.5rem 0;
+    padding: .5rem 0;
 
-    &__list{
-        display: flex;
+    @media (min-width:768px){
+        padding-top: 27px;
+        padding-bottom: 30px;
     }
 
-    & li {
-        padding: 10px;
-        margin: 0 auto;
+    @media (min-width:814px){
+        padding-top: 79px;
+        padding-bottom: 47px;
     }
 
-    
+    @media (min-width:1192px){
+        padding-bottom: 115px;
+    }
 
+
+    @media (min-width:1366px){
+        padding-bottom: 151px;
+    }
+
+  
+  
 }

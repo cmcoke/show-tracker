@@ -5,6 +5,16 @@
 
     &--hero{
         text-transform: uppercase;
+        text-align: center;
+
+        @media (min-width:768px){
+            text-align: left;
+        }
+
+        @media (min-width:1024px){
+            text-align: left;
+        }
+
     }
 
     &--features{
@@ -17,7 +27,16 @@
         font-size: 15px;
         line-height: 28px;
         margin-bottom: 0px;
-        width: 520px;
+        // width: 520px;
+
+        @media (min-width:768px){
+            
+            font-size: 15px;
+            line-height: 28px;
+            margin-bottom: 0px;
+            width: 520px;
+        }
+
     }
 
     &--started{

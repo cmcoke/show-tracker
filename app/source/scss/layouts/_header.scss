@@ -1,26 +1,45 @@
 .header{
-    background:white;
+    background: white;
     border-bottom: 1px solid #EBEBEB;
-
+    
+    
     &__shapes{
         width: 100%;
         margin: 0 auto;
         position: absolute;
-        overflow: hidden;
+        overflow: none;
         z-index: -1;
+
+        @media (min-width:1628px){
+            width: 100%;
+            margin: 0 auto;
+            position: absolute;
+            overflow: hidden;
+            z-index: -1;
+        }
     }
 
     &__shape--1{
-        position: relative;
-        right: 300px;
-        top: 100px;
+        display: none;
+        
+        @media (min-width:1628px){
+            display: inline;
+            position: relative;
+            right: 300px;
+            top: 100px;
+        }
     }
 
 
     &__shape--2{
-        position: relative;
-        left: 750px;
-        bottom: 250px;
+        display: none;
+      
+        @media (min-width:1628px){
+            display: inline;
+            position: relative;
+            left: 750px;
+            bottom: 250px;
+        }
     }
 
     &__wrapper{
@@ -41,7 +60,8 @@
             align-items: center;
     
             & li {
-                margin-left: 80px;
+                // margin-left: 80px;
+                margin-left: 50px;
             }
     
             & a {

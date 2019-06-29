@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <title>ShowTrackr | Track Your Shows</title>
   <link rel="stylesheet" href="assets/css/main.min.css">
-  <!-- <script src="./assets/scripts/vendors.js"></script> -->
+  <script src="./assets/scripts/vendors.js"></script>
 </head>
 
 <body>
@@ -24,13 +24,6 @@
       </div>
 
       <div class="container">
-
-        <!-- mobile menu icon -->
-        <div class="header__mobile-menu-container">
-          <div class="header__menu-icon">
-            <div class="header__menu-icon--middle"></div>
-          </div>
-        </div>
 
         <div class="header__wrapper">
           
@@ -89,7 +82,8 @@
             </div>
           </div>
 
-            <img src="assets/img/phone-hero.png" class="hero__phone-img" alt="app on phone">
+          <img src="assets/img/phone-hero.png" class="hero__phone-img" alt="app on phone">
+
         </div>
           
       </div>
@@ -143,36 +137,38 @@
     <!-- SHOWS -->
     <section class="shows">
       
-     <ul class="shows__list">
+     <div class="carousel" >
         
-        <li><img src="assets/img/show-1.png" alt=""></li>
-    
-
-        <li><img src="assets/img/show-2.png" alt=""></li>
-    
-
-        <li><img src="assets/img/show-3.png" alt=""></li>
-    
-
-        <li><img src="assets/img/show-4.png" alt=""></li>
-    
-
-        <li><img src="assets/img/show-5.png" alt=""></li>
-    
-
-        <li><img src="assets/img/show-6.png" alt=""></li>
-    
-
-        <li><img src="assets/img/show-7.jpg" alt=""></li>
-    
-
-        <li><img src="assets/img/show-8.png" alt=""></li>
-    
-
-        <li><img src="assets/img/show-9.jpg" alt=""></li>
+        <div class="carousel-cell">
+            <li><img src="assets/img/tv-shows-1.jpg" alt=""></li>
+        </div>
         
+        <div class="carousel-cell">
+            <li><img src="assets/img/tv-shows-2.jpg" alt=""></li>
+        </div>
 
-     </ul>
+        <div class="carousel-cell">
+            <li><img src="assets/img/tv-shows-3.jpg" alt=""></li>
+        </div>
+
+        <div class="carousel-cell">
+            <li><img src="assets/img/tv-shows-4.jpg" alt=""></li>
+        </div>
+
+        <div class="carousel-cell">
+            <li><img src="assets/img/tv-shows-5.jpg" alt=""></li>
+        </div>
+
+        <div class="carousel-cell">
+            <li><img src="assets/img/tv-shows-6.jpg" alt=""></li>
+        </div>
+
+        <div class="carousel-cell">
+            <li><img src="assets/img/tv-shows-7.jpg" alt=""></li>
+        </div>
+    
+    
+     </div>
 
     </section>
 
@@ -209,7 +205,7 @@
     
               <div class="platform__img">
                 <img src="assets/img/phone-appshowcase.png" alt="" class="platform__phone">
-                <img src="assets/img/web-app.png" alt="" class="platform__web-app">
+                <img src="assets/img/showcase-img.jpg" alt="" class="platform__web-app">
               </div>
           </div>
 
@@ -236,6 +232,13 @@
 
               <a href="#" class="btn btn--community">Read More Testimonials</a>
             </div>
+
+            <div class="community__mobile-images">
+                <img src="https://a.icons8.com/rapPtgRe/Wu5LwK/group-28-copy@2x.png" alt="" class="community__mobile-images-1">
+                <img src="https://a.icons8.com/geTffOdX/MxEnA0/group-28@2x.png" alt="" class="community__mobile-images-2">
+                <img src="https://a.icons8.com/geTffOdX/13NrN8/group-28-copy-2@2x.png" alt="" class="community__mobile-images-3">
+            </div>
+            
 
             <div class="community__images">
               <img src="assets/img/testimonials-1.png" class="community__images--1" alt="">
@@ -264,9 +267,10 @@
 
           <form action="#">
               <input type="text" class="input input--started" placeholder="your@email.com">
-              <button class="btn btn--hero">Start Tracking</button>
+              <button class="btn btn--started">Start Tracking</button>
           </form>
 
+        
         </div>
 
       </div>
@@ -279,7 +283,17 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <p>Please note that the design of this landing page was created by <a href="https://dribbble.com/shots/4420134-Landing-Page-Template">Daniel Korpai</a></p>
+
+        <ul class="footer__social-links">
+            <li><a href="#"><img src="assets/img/twitter.png" alt="twitter logo"></a></li>
+            <li><a href="#"><img src="assets/img/facebook.png" alt="facebook logo"></a></li>
+            <li><a href="#"><img src="assets/img/youtube.png" alt="youtube logo"></a></li>
+        </ul>
+
+      <p>Please note that although this landing page was coded by me, it was designed by <a href="https://dribbble.com/shots/4420134-Landing-Page-Template">Daniel Korpai</a></p>
+
+      
+
     </div>
   </footer>
 </body>
@@ -287,6 +301,6 @@
 
 
 
-<!-- <script src="./assets/scripts/app.js"></script> -->
+<script src="./assets/scripts/app.js"></script>
 
 </html>

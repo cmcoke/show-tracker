@@ -13,19 +13,52 @@
 
     &--hero{
         border: none;
-        padding-top:11px;
-        padding-bottom: 11px;
+        padding-top:15px;
+        padding-bottom: 15px;
         font-family: $mon;
         cursor: pointer;
+        width: 101%;
+
+        @media (min-width:768px){
+            padding-top:11px;
+            padding-bottom: 11px;
+            width: 80%;
+            margin-top: 9px;
+        }
+
+        @media (min-width:1024px){
+            padding-top:11px;
+            padding-bottom: 11px;
+            width: 31%;
+        }
+
     }
 
     &--started{
         border: none;
-        padding-top:8px;
-        padding-bottom: 8px;
-        margin-left: -3px;
+        padding-top:15px;
+        padding-bottom: 15px;
         font-family: $mon;
         cursor: pointer;
+        width: 101%;
+
+        @media (min-width:768px){
+            width: 25%;
+            padding-top:11px;
+            padding-bottom: 11px;
+        
+        }
+
+        @media (min-width:1116px){
+            width: 20%;
+            padding-top:11px;
+            padding-bottom: 11px;
+        }
+
+        @media (min-width:1366px){
+            width: 15%;
+        }
+
     }
 
     &--community{

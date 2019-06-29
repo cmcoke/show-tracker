@@ -4,27 +4,120 @@
     overflow: hidden;
     height: 800px;
 
+    @media (min-width:768px){
+        height: 800px;
+    }
+
+
+
     &__wrapper{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        margin-top: -139px;
+
+        @media (min-width:738px){
+            margin-top: -75px;
+        }
+
+        @media (min-width:768px){
+            justify-content: space-between;
+            margin-top: 0px;
+        }
+
+    }
+
+    &__mobile-images{
+        margin-top:  -165px;
+        width: 260px;
+
+        @media (min-width:738px){
+            margin-top: -134px;
+        }
+        
+
+        @media (min-width:768px){
+            display: none;
+        }
+
+    }
+
+    &__mobile-images-1{
+        background-color: #191717;
+
+    }
+
+    &__mobile-images-2{
+        position: relative;
+        top: -215px;
+        left: 268px;
+        height: 210px;
+        background-color: #191717;
+
+    }
+
+    &__mobile-images-3{
+        position: relative;
+        top: -429px;
+        left: 536px;
+        height: 210px;
+        background-color: #191717;
+
     }
 
     &__images{
-        display: flex;
+        display: none;
+
+        @media (min-width:768px){
+            display: flex;
+        }
+
     }
+
 
     &__text-content{
         margin: 200px 0;
     }
 
     &__images--1{
-        position: relative;
-        bottom: 60px;
-        right: 50px;
+        
+
+        @media (min-width:768px){
+            position: relative;
+            bottom: 873px;
+            left: 481px;
+        }
+
+        @media (min-width:1188px){
+            left: 581px;
+        }
+        
     }
 
+
     &__images--2{
-        position: relative;
-        bottom: 135px;
+        @media (min-width:768px){
+            display: none;
+        }
+
+        @media (min-width:768px){
+            display: inline;
+            position: relative;
+            bottom: 799px;
+            left: 494px;
+        }
+
+        @media (min-width:768px){
+            display: inline;
+            position: relative;
+            bottom: 799px;
+            left: 494px;
+        }
+
+        @media (min-width:1188px){
+            left: 627px;
+        }
+        
     }
+
+
 }
