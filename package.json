@@ -4,10 +4,11 @@
     "description": "Show Tracker Landing Page",
     "main": "index.html",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "deploy": "gh-pages -d app/build"
     },
     "author": "",
     "license": "ISC",
+    "homepage": "https://cmcoke.github.io/showtrackr",
     "devDependencies": {
         "autoprefixer": "^9.4.8",
         "browser-sync": "^2.26.3",
@@ -25,5 +26,7 @@
         "gulp-uglify": "^3.0.1",
         "rucksack-css": "^1.0.2"
     },
-    "dependencies": {}
+    "dependencies": {
+        "gh-pages": "^2.0.1"
+    }
 }
